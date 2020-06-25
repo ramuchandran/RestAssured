@@ -76,15 +76,15 @@ public class TestFootballData {
 //	    System.out.println(allTeamData);
 //	}
 	
-	@Test
-	public void testTODOWIthGroovy() throws Exception {
-		JsonSlurper slurper = new JsonSlurper();
-		ClassLoader classLoader = getClass().getClassLoader();
-		File file = new File(classLoader.getResource("sample.json").getFile());
-		String content = new String(Files.readAllBytes(file.toPath()));
-		Object obj = slurper.parseText(content);
-		System.out.println(obj);
-	}
+//	@Test
+//	public void testTODOWIthGroovy() throws Exception {
+//		JsonSlurper slurper = new JsonSlurper();
+//		ClassLoader classLoader = getClass().getClassLoader();
+//		File file = new File(classLoader.getResource("sample.json").getFile());
+//		String content = new String(Files.readAllBytes(file.toPath()));
+//		Object obj = slurper.parseText(content);
+//		System.out.println(obj);
+//	}
 	
 	@Test
 	public void extractMapOfElementsWithFind_findAllTeamDataForSingleTeam() {
